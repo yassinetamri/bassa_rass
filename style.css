@@ -1,0 +1,56 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#sec1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(topografia.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+  
+}
+.nav-link{
+    margin-left:50px ;
+    margin-right: 50px;
+    
+}
+section{
+    height: 100%;
+    width: 100%;
+    
+    margin: 0;
+    background-color:#fff;
+    border: 2px red solid;
+}
+.hero{
+    padding-top: 20%;
+    text-align: center;
+}
+.hero h1{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    text-align: center;
+}
+#sec2{
+    height: 100vh;
+}
+#about{
+    
+    text-align: center;
+}
+#about h2{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    img {
+     width: auto;}
+  }
+
+
+    
